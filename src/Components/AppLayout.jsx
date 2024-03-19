@@ -3,9 +3,9 @@ import Nav from "./Nav";
 
 function AppLayout() {
   return (
-    <div className="flex flex-col items-center min-h-screen">
+    <div className="flex flex-col items-center min-h-screen ">
       <Nav />
-      <div className="flex justify-center w-[1512px] px-10">
+      <div className="flex justify-center w-[1512px] px-10 ">
         <Outlet />
       </div>
     </div>

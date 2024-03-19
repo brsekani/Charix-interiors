@@ -1,5 +1,10 @@
 import { MdKeyboardArrowLeft } from "react-icons/md";
 import { MdKeyboardArrowRight } from "react-icons/md";
+import { CiHeart } from "react-icons/ci";
+import { FaLinkedin } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
+import { FaInstagram } from "react-icons/fa";
+import { BsFacebook } from "react-icons/bs";
 
 function Homepage() {
   return (
@@ -395,6 +400,233 @@ function Homepage() {
               alt=""
               className="cursor-pointer"
             />
+          </div>
+        </div>
+
+        {/* Shop Interior Accessories section */}
+        <div className="flex flex-col items-center justify-center mt-24">
+          <h1 className="text-[55px] leading-[61.38px]">
+            Shop Interior Accessories
+          </h1>
+          <div className="flex flex-row items-center justify-center gap-4 px-20 mt-16">
+            <div className="w-[270px] h-[330px] hover:h-[390px] p-2 border border-red-300 group transition-all duration-300">
+              <img
+                src="public\bedroom-interior-2023-11-27-04-57-57-utc 1.png"
+                alt=""
+              />
+              <div className="flex items-center justify-between gap-12 mt-3">
+                <h1 className="text-[20px] leading-[25.64px] w-[138px] font-bold">
+                  Vintage Lamp
+                </h1>
+                <p className="text-[20px]">
+                  $<span>36</span>
+                </p>
+              </div>
+              <p className="w-[237px] text-[10px] leading-[12.4px] mt-1">
+                Vintage ceiling lamp in dark brown shade. Comes with adjustable
+                brightness levels.
+              </p>
+              <div className="hidden items-center gap-1 mt-5 flex-grow justify-between transition-all duration-300 group-hover:flex">
+                <button className="w-48 bg-yellow-300 h-10">Add to cart</button>
+                <div className="w-10 border border-yellow-300 h-10 flex items-center justify-center">
+                  <CiHeart size={30} color="yellow" />
+                </div>
+              </div>
+            </div>
+            <div className="w-[270px] h-[330px] hover:h-[390px] p-2 border border-red-300 group transition-all duration-300">
+              <img
+                src="public\bedroom-interior-2023-11-27-04-57-57-utc 1 (1).png"
+                alt=""
+              />
+              <div className="flex items-center justify-between gap-12 mt-3">
+                <h1 className="text-[20px] leading-[25.64px] w-[138px] font-bold">
+                  Vintage Lamp
+                </h1>
+                <p className="text-[20px]">
+                  $<span>36</span>
+                </p>
+              </div>
+              <p className="w-[237px] text-[10px] leading-[12.4px] mt-1">
+                Vintage ceiling lamp in dark brown shade. Comes with adjustable
+                brightness levels.
+              </p>
+              <div className="hidden items-center gap-1 mt-5 flex-grow justify-between transition-all duration-300 group-hover:flex">
+                <button className="w-48 bg-yellow-300 h-10">Add to cart</button>
+                <div className="w-10 border border-yellow-300 h-10 flex items-center justify-center">
+                  <CiHeart size={30} color="yellow" />
+                </div>
+              </div>
+            </div>
+            <div className="w-[270px] h-[330px] hover:h-[390px] p-2 border border-red-300 group transition-all duration-300">
+              <img
+                src="public\bedroom-interior-2023-11-27-04-57-57-utc 1 (2).png"
+                alt=""
+              />
+              <div className="flex items-center justify-between gap-12 mt-3">
+                <h1 className="text-[20px] leading-[25.64px] w-[138px] font-bold">
+                  Vintage Lamp
+                </h1>
+                <p className="text-[20px]">
+                  $<span>36</span>
+                </p>
+              </div>
+              <p className="w-[237px] text-[10px] leading-[12.4px] mt-1">
+                Vintage ceiling lamp in dark brown shade. Comes with adjustable
+                brightness levels.
+              </p>
+              <div className="hidden items-center gap-1 mt-5 flex-grow justify-between transition-all duration-300 group-hover:flex">
+                <button className="w-48 bg-yellow-300 h-10">Add to cart</button>
+                <div className="w-10 border border-yellow-300 h-10 flex items-center justify-center">
+                  <CiHeart size={30} color="yellow" />
+                </div>
+              </div>
+            </div>
+            <div className="w-[270px] h-[330px] hover:h-[390px] p-2 border border-red-300 group transition-all duration-300">
+              <img
+                src="public\bedroom-interior-2023-11-27-04-57-57-utc 1 (3).png"
+                alt=""
+              />
+              <div className="flex items-center justify-between gap-12 mt-3">
+                <h1 className="text-[20px] leading-[25.64px] w-[138px] font-bold">
+                  Vintage Lamp
+                </h1>
+                <p className="text-[20px]">
+                  $<span>36</span>
+                </p>
+              </div>
+              <p className="w-[237px] text-[10px] leading-[12.4px] mt-1">
+                Vintage ceiling lamp in dark brown shade. Comes with adjustable
+                brightness levels.
+              </p>
+              <div className="hidden items-center gap-1 mt-5 flex-grow justify-between transition-all duration-300 group-hover:flex">
+                <button className="w-48 bg-yellow-300 h-10">Add to cart</button>
+                <div className="w-10 border border-yellow-300 h-10 flex items-center justify-center">
+                  <CiHeart size={30} color="yellow" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="flex items-center gap-6 cursor-pointer mt-24">
+            <p className="text-black text-[18px] font-normal">
+              Shop Interior Accessories
+            </p>
+            <img
+              src="public\Group 4 (1).png"
+              alt=""
+              className="cursor-pointer"
+            />
+          </div>
+        </div>
+
+        {/* Start a Project section */}
+        <div className="relative mt-24">
+          <img
+            className=""
+            src="public\poster-frames-mock-up-in-modern-room-interior-in-w-2023-11-27-05-06-31-utc 1.png"
+            alt=""
+          />
+          <div className="absolute flex flex-col items-center justify-center  bg-[#00000080] inset-0 gap-16">
+            <p className="text-center h-[98px] w-[1026px] text-[24px] text-[#FFFFFF] mt-36">
+              At La Chariz Interiors, we are dedicated to creating remarkable
+              spaces that elevate living and working experiences. Whether it's
+              revamping a single room or designing an entire property, we are
+              ready to bring our expertise and creativity to meet our client's
+              unique needs and aspirations.
+            </p>
+            <div className="flex items-center gap-16 mt-8">
+              <p className="text-[#FFFFFF] text-[18px] font-normal">
+                Start a Project
+              </p>
+              <img src="public\Group 4.png" alt="" />
+            </div>
+          </div>
+        </div>
+
+        {/* Get in Touch section */}
+        <div className="flex items-center justify-between mt-28">
+          <div className="flex items-center gap-10 flex-col">
+            <h1 className="text-[128px] w-[372px] h-[286px] leading-[142.85px] ">
+              Get in Touch
+            </h1>
+            <p className="text-[30px] w-[403px]">
+              Building Relationships, One Conversation at a Time
+            </p>
+          </div>
+          <form className="flex flex-col gap-5 ">
+            <input
+              className="w-[668px] h-[53px] border-2 border-[#000000] px-5"
+              type="text"
+              placeholder="Name"
+            />
+            <input
+              className="w-[668px] h-[53px] border-2 border-[#000000] px-5"
+              type="text"
+              placeholder="Email"
+            />
+            <textarea
+              className="w-[668px] h-[152px] border-2 border-[#000000] p-5"
+              type="text"
+              placeholder="Type your message here"
+            />
+
+            <button className="flex items-center justify-between p-3 cursor-pointer mt-2 bg-[#FFC50A] w-[229.54px] h-[64.26px] ">
+              <p className="text-black text-[18px] font-bold">Submit</p>
+              <img
+                src="public\Group 4 (1).png"
+                alt=""
+                className="cursor-pointer"
+              />
+            </button>
+          </form>
+        </div>
+
+        {/* Let’s Talk section */}
+        <div
+          className="bg-[#FFC50A] h-[733px] mt-5 px-28"
+          style={{ marginLeft: "-80px", marginRight: "-80px" }}
+        >
+          <div className="flex items-center justify-between">
+            <div>
+              <div className="flex items-center">
+                <h1 className="text-[128px] mt-20">Let’s Talk</h1>
+                <img
+                  className="mt-[-50px] ml-7"
+                  src="public\Vector (1).png"
+                  alt=""
+                />
+              </div>
+              <div className="mt-10 gap-1">
+                <p>General Enquiries</p>
+                <p>business@lachariz.com</p>
+              </div>
+              <div className="mt-20">
+                <p>Office Address</p>
+                <p className="w-[200px] leading-[19.84px]">
+                  4th Floor, Ocean Centre, off Oladipo Diya Road, Gudu, Apo,
+                  Abuja.
+                </p>
+              </div>
+            </div>
+            <div className="flex items-end justify-end flex-col gap-32 mt-44">
+              <p className="">Go back to top</p>
+              <div className="flex items-end flex-col gap-5">
+                <p>Social Media</p>
+                <div className="flex items-center justify-between gap-9">
+                  <FaLinkedin size={20} />
+                  <FaXTwitter size={20} />
+                  <FaInstagram size={20} />
+                  <BsFacebook size={20} />
+                </div>
+              </div>
+              <div className="flex gap-20">
+                <p>Terms and Conditions</p>
+                <p>Privacy Policy</p>
+              </div>
+            </div>
+          </div>
+          <div className="mt-20">
+            <hr className="w-[1331.9px]" />
+            <p>All Rights Reserved La Chariz Group 2023</p>
           </div>
         </div>
       </div>
