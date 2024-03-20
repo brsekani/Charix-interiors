@@ -9,13 +9,13 @@ function TheArtOfBeautifulLiving() {
   return (
     <div className="flex w-full">
       <div className="relative">
-        <div className="absolute inset-0 bg-black opacity-50 h-[764px]"></div>
+        <div className="absolute inset-0  opacity-50 h-[764px]"></div>
         <img
           className="max-w-[1124px]"
           src={InteriorDesignImage}
           alt="Interior Design"
         />
-        <div className="absolute inset-0 flex items-start flex-col">
+        <div className="absolute inset-0 flex flex-col items-start">
           <div className="ml-[7rem] mt-[17rem]">
             <h1 className="text-[#FFFFFF] text-[80px] w-[678px] leading-none">
               The Art of Beautiful Living
@@ -31,7 +31,7 @@ function TheArtOfBeautifulLiving() {
       </div>
       <div className="relative top-[200px] right-48 flex-shrink-0">
         <div className="bg-[#FFC50A] w-[438px] h-[562px] mt-[-100px] z-10">
-          <div className="absolute flex flex-col py-20 px-16">
+          <div className="absolute flex flex-col px-16 py-20">
             <h6 className="text-[24px]">Chariz Interiors;</h6>
             <img className="w-[1px] h-[130px] ml-1" src={LineImage} alt="" />
             <p className="text-[24px] font-bold">

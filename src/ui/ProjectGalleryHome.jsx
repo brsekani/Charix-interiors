@@ -4,7 +4,7 @@ import RoomImage from "/public/photo2.png";
 import OfficeImage from "/public/photo3.png";
 import ViewMoreImage from "/public/Group 4 (1).png";
 
-function ProjectGallery() {
+function ProjectGalleryHome() {
   return (
     <div className="flex items-center flex-col mt-52">
       <h1 className="text-[64px] leading-[71.42px]">Project Gallery</h1>
@@ -55,4 +55,4 @@ function ProjectGallery() {
   );
 }
 
-export default ProjectGallery;
+export default ProjectGalleryHome;

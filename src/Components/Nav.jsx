@@ -3,6 +3,7 @@ import logoImg from "/public/Chariz Interiors 1.png";
 import userImg from "/public/user.png";
 import lineImg from "/public/Line 4.png";
 import searchImg from "/public/search-01.png";
+import { NavLink } from "react-router-dom";
 
 function Nav() {
   return (
@@ -10,12 +11,18 @@ function Nav() {
       <img className="cursor-pointer" src={logoImg} alt="Logo" />
       <div className="flex items-center gap-24">
         <ul className="flex items-center gap-16 mb-5">
-          <li className="hover:text-[#FFC50A] cursor-pointer">Home</li>
+          <NavLink to="home">
+            <li className="hover:text-[#FFC50A] cursor-pointer">Home</li>
+          </NavLink>
           <li className="flex items-center justify-center gap-2 hover:text-[#FFC50A] cursor-pointer">
             Pages <span className="mt-1">{<FaAngleDown size={20} />}</span>{" "}
           </li>
-          <li className="hover:text-[#FFC50A] cursor-pointer">Gallery</li>
-          <li className="hover:text-[#FFC50A] cursor-pointer">Shop</li>
+          <NavLink to="gallery">
+            <li className="hover:text-[#FFC50A] cursor-pointer">Gallery</li>
+          </NavLink>
+          <NavLink to="shop">
+            <li className="hover:text-[#FFC50A] cursor-pointer">Shop</li>
+          </NavLink>
           <li className="hover:text-[#FFC50A] cursor-pointer">Contact</li>
           <li className="hover:text-[#FFC50A] cursor-pointer">Login</li>
         </ul>

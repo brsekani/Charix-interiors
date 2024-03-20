@@ -1,8 +1,8 @@
-import { MdKeyboardArrowLeft, MdKeyboardArrowRight } from "react-icons/md";
 import Group4_1Image from "/public/Group 4 (1).png";
 import ProjectImage1 from "/public/cb0c4888461127.png";
 import ProjectImage2 from "/public/cb0c4888461127 (1).png";
 import ProjectImage3 from "/public/cb0c4888461127 (2).png";
+import Pagination from "./Pagination";
 
 function RecentProjects() {
   return (
@@ -29,11 +29,7 @@ function RecentProjects() {
         </div>
       </div>
 
-      <div className="flex items-center justify-between gap-12 m-auto mt-12">
-        <MdKeyboardArrowLeft size={30} className="cursor-pointer" />
-        {/* Pagination */}
-        <MdKeyboardArrowRight size={30} className="cursor-pointer" />
-      </div>
+      <Pagination />
     </div>
   );
 }

@@ -1,14 +1,15 @@
-import TheArtOfBeautifulLiving from "../../ui/TheArtOfBeautifulLiving";
-import ServicesSection from "../../ui/ServicesSection";
-import AboutSection from "../../ui/AboutSection.jsx";
-import StatisticsSection from "../../ui/StatisticsSection.jsx";
-import ImageGallery from "../../ui/ImageGallery.jsx";
-import RecentProjects from "../../ui/RecentProjects.jsx";
-import ProjectGallery from "../../ui/ProjectGallery.jsx";
-import ShopInteriorAccessories from "../../ui/ShopInteriorAccessories.jsx";
-import PosterComponent from "../../ui/PosterComponent.jsx";
-import ContactForm from "../../ui/ContactForm.jsx";
-import ContactSection from "../../ui/ContactSection.jsx";
+import StatisticsSection from "../ui/StatisticsSection.jsx";
+import ImageGallery from "../ui/ImageGallery.jsx";
+import RecentProjects from "../ui/RecentProjects.jsx";
+
+import ShopInteriorAccessories from "../ui/ShopInteriorAccessories.jsx";
+import PosterComponent from "../ui/PosterComponent.jsx";
+import ContactForm from "../ui/ContactForm.jsx";
+import ContactSection from "../ui/ContactSection.jsx";
+import ProjectGalleryHome from "../ui/ProjectGalleryHome.jsx";
+import TheArtOfBeautifulLiving from "../ui/TheArtOfBeautifulLiving.jsx";
+import ServicesSection from "../ui/ServicesSection.jsx";
+import AboutSection from "../ui/AboutSection.jsx";
 
 // Images
 
@@ -35,7 +36,7 @@ function Homepage() {
         <RecentProjects />
 
         {/* Project Gallery section */}
-        <ProjectGallery />
+        <ProjectGalleryHome />
 
         {/* Shop Interior Accessories section */}
         <ShopInteriorAccessories />
