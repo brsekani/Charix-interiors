@@ -21,15 +21,36 @@ function AboutSection() {
         <div className="flex items-center gap-4 mt-8">
           <div className="flex flex-col items-center gap-4">
             <div className="flex items-center gap-3 border border-[#FFC50A] w-[324px] h-[46px] px-1 cursor-pointer">
-              <img src={DoorImage} alt="" />
+              <img src="public\Door.png" alt="" />
               <p>Consultation</p>
             </div>
-            {/* Other similar divs */}
+            <div className="flex items-center gap-3 border border-[#FFC50A] w-[324px] h-[46px] px-1 cursor-pointer">
+              <img src="public\Door.png" alt="" />
+              <p>Furniture Design</p>
+            </div>
+            <div className="flex items-center gap-3 border border-[#FFC50A] w-[324px] h-[46px] px-1 cursor-pointer">
+              <img src="public\Door.png" alt="" />
+              <p>3D Visualization</p>
+            </div>
           </div>
-          <div className="flex items-center gap-6 cursor-pointer mt-16">
-            <p className="text-black text-[18px] font-normal">Read More</p>
-            <img src={Group4_1Image} alt="" className="cursor-pointer" />
+          <div className="flex flex-col items-center gap-4">
+            <div className="flex items-center gap-3 border border-[#FFC50A] w-[324px] h-[46px] px-1 cursor-pointer">
+              <img src="public\Door.png" alt="" />
+              <p>Design Development</p>
+            </div>
+            <div className="flex items-center gap-3 border border-[#FFC50A] w-[324px] h-[46px] px-1 cursor-pointer">
+              <img src="public\Door.png" alt="" />
+              <p>Space Planning</p>
+            </div>
+            <div className="flex items-center gap-3 border border-[#FFC50A] w-[324px] h-[46px] px-1 cursor-pointer">
+              <img src="public\Door.png" alt="" />
+              <p>ighting Design</p>
+            </div>
           </div>
+        </div>
+        <div className="flex items-center gap-6 cursor-pointer mt-16">
+          <p className="text-black text-[18px] font-normal">Read More</p>
+          <img src="public\Group 4 (1).png" alt="" className="cursor-pointer" />
         </div>
         <h1 className="absolute w-[831px] text-[200px] text-yellow-400 text-opacity-25 top-[-120px] left-[33rem] cursor-default">
           About Us

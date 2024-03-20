@@ -1,8 +1,3 @@
-import { FaLinkedin } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
-import { FaInstagram } from "react-icons/fa";
-import { BsFacebook } from "react-icons/bs";
-
 import TheArtOfBeautifulLiving from "../../ui/TheArtOfBeautifulLiving";
 import ServicesSection from "../../ui/ServicesSection";
 import AboutSection from "../../ui/AboutSection.jsx";
