@@ -7,3 +7,15 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+.select-container::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  border: solid black;
+  border-width: 0 2px 2px 0;
+  padding: 3px;
+  pointer-events: none; /* Ensures the arrow doesn't interfere with clicking on the select */
+}
