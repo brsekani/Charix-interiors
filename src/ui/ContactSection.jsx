@@ -10,30 +10,33 @@ function ContactSection() {
     >
       <div className="flex items-center justify-between">
         <div>
-          <div className="flex items-center">
-            <h1 className="text-[128px] mt-20">Let’s Talk</h1>
+          <div className="flex items-center cursor-pointer group">
+            <h1 className="text-[128px] mt-20 group-hover:font-bold transition-all duration-300 animate-pulse">
+              Let’s Talk
+            </h1>
             <img className="mt-[-50px] ml-7" src={VectorImage} alt="" />
           </div>
-          <div className="mt-10 gap-1">
+
+          <div className="mt-10 gap-1 cursor-default">
             <p>General Enquiries</p>
             <p>business@lachariz.com</p>
           </div>
-          <div className="mt-20">
+          <div className="mt-20 cursor-default">
             <p>Office Address</p>
-            <p className="w-[200px] leading-[19.84px]">
+            <p className="w-[200px] leading-[19.84px] cursor-default">
               4th Floor, Ocean Centre, off Oladipo Diya Road, Gudu, Apo, Abuja.
             </p>
           </div>
         </div>
-        <div className="flex items-end justify-end flex-col gap-32 mt-44">
-          <p className="">Go back to top</p>
+        <div className="flex items-end justify-end flex-col gap-32 mt-44 cursor-default">
+          <p>Go back to top</p>
           <div className="flex items-end flex-col gap-5">
             <p>Social Media</p>
             <div className="flex items-center justify-between gap-9">
-              <FaLinkedin size={20} />
-              <FaTwitter size={20} />
-              <FaInstagram size={20} />
-              <BsFacebook size={20} />
+              <FaLinkedin className="cursor-pointer" size={20} />
+              <FaTwitter className="cursor-pointer" size={20} />
+              <FaInstagram className="cursor-pointer" size={20} />
+              <BsFacebook className="cursor-pointer" size={20} />
             </div>
           </div>
           <div className="flex gap-20">
