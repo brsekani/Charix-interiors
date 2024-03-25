@@ -1,6 +1,8 @@
 import { useState } from "react";
 
 import { IoEyeSharp } from "react-icons/io5";
+import mailIcon from "/public/mail-01.png";
+import lockIcon from "/public/square-lock-02.png";
 
 import backgroundImage from "../../public/The Simple Serenity of Soft Minimalism.png";
 import logoImg from "../../public/Chariz Interiors 1.png";
@@ -47,11 +49,7 @@ function Login() {
                 className="max-w-[369px] w-full h-[63px] px-12 pb-1 border border-[#777777]"
                 type="text"
               />
-              <img
-                className="absolute top-4 left-3"
-                src="public\mail-01.png"
-                alt=""
-              />
+              <img className="absolute top-4 left-3" src={mailIcon} alt="" />
             </div>
             <label className="text-[#777777] text-[20px]">Password</label>
             <div className="relative max-w-[369px] w-full h-[63px] ">
@@ -59,11 +57,7 @@ function Login() {
                 className="max-w-[369px] lg:w-[369px] w-full h-[63px] px-12 pb-1 border border-[#777777]"
                 type={showPassword ? "text" : "password"}
               />
-              <img
-                className="absolute top-4 left-3"
-                src="public\square-lock-02.png"
-                alt=""
-              />
+              <img className="absolute top-4 left-3" src={lockIcon} alt="" />
               {showPassword ? (
                 <IoEyeSharp
                   color="#FFC50A"

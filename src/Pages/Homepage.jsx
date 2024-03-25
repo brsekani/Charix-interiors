@@ -42,7 +42,7 @@ function Homepage() {
         {/* <ShopInteriorAccessories /> */}
 
         {/* Start a Project section */}
-        {/* <PosterComponent /> */}
+        <PosterComponent />
 
         {/* Get in Touch section */}
         {/* <ContactForm /> */}
