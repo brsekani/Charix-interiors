@@ -16,7 +16,7 @@ import AboutSection from "../ui/AboutSection.jsx";
 function Homepage() {
   return (
     <div className="flex justify-center">
-      <div className="max-w-[1512px] w-full px-20 h-[1162px] bg-[#F2F2F2] mt-[9.5rem]">
+      <div className="max-w-[1512px] w-full xl:px-20 h-[1162px] bg-[#F2F2F2] mt-[9.5rem]">
         {/* The Art of Beautiful Living section */}
         <TheArtOfBeautifulLiving />
 
@@ -24,31 +24,31 @@ function Homepage() {
         <ServicesSection />
 
         {/* About Chariz Interiors section */}
-        <AboutSection />
+        {/* <AboutSection /> */}
 
         {/* Projects Completed section */}
-        <StatisticsSection />
+        {/* <StatisticsSection /> */}
 
         {/* Chariz section */}
-        <ImageGallery />
+        {/* <ImageGallery /> */}
 
         {/* Our Recent Projects section */}
-        <RecentProjects />
+        {/* <RecentProjects /> */}
 
         {/* Project Gallery section */}
-        <ProjectGalleryHome />
+        {/* <ProjectGalleryHome /> */}
 
         {/* Shop Interior Accessories section */}
-        <ShopInteriorAccessories />
+        {/* <ShopInteriorAccessories /> */}
 
         {/* Start a Project section */}
-        <PosterComponent />
+        {/* <PosterComponent /> */}
 
         {/* Get in Touch section */}
-        <ContactForm />
+        {/* <ContactForm /> */}
 
         {/* Let’s Talk section */}
-        <ContactSection />
+        {/* <ContactSection /> */}
       </div>
     </div>
   );

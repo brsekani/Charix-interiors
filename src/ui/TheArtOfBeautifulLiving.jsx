@@ -7,17 +7,17 @@ import ArrowNext1Image from "/public/Arrow (next) (1).png";
 
 function TheArtOfBeautifulLiving() {
   return (
-    <div className="flex w-full">
+    <div className="flex w-full -mt-40 xl:mt-0">
       <div className="relative">
-        <div className="absolute inset-0  opacity-50 h-[764px]"></div>
+        <div className="flex items-center justify-center absolute inset-0  opacity-50 h-[764px]"></div>
         <img
-          className="max-w-[1124px]"
+          className="xl:min-w-[1124px] xl:min-h-[764px] h-[35rem] w-full"
           src={InteriorDesignImage}
           alt="Interior Design"
         />
         <div className="absolute inset-0 flex flex-col items-start">
-          <div className="ml-[7rem] mt-[17rem]">
-            <h1 className="text-[#FFFFFF] text-[80px] w-[678px] leading-none">
+          <div className="xl:ml-[7rem] mx-5  xl:mt-[17rem] mt-28">
+            <h1 className="text-[#FFFFFF] text-[80px] max-w-[678px] w-full leading-none">
               The Art of Beautiful Living
             </h1>
             <div className="flex items-center gap-16 mt-8">
@@ -29,7 +29,7 @@ function TheArtOfBeautifulLiving() {
           </div>
         </div>
       </div>
-      <div className="relative top-[200px] right-48 flex-shrink-0">
+      <div className="relative top-[200px] right-48 flex-shrink-0 hidden xl:block">
         <div className="bg-[#FFC50A] w-[438px] h-[562px] mt-[-100px] z-10">
           <div className="absolute flex flex-col px-16 py-20">
             <h6 className="text-[24px]">Chariz Interiors;</h6>

@@ -5,12 +5,14 @@ import Gallery from "./Pages/Gallery";
 import Shop from "./Pages/Shop";
 import Contact from "./Pages/Contact";
 import Login from "./Pages/Login";
+import Signup from "./Pages/Signup";
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
         <Route path="login" element={<Login />} />
+        <Route path="login/signup" element={<Signup />} />
         <Route element={<AppLayout />}>
           <Route index element={<Navigate replace to="home" />} />
           <Route path="home" element={<Homepage />} />

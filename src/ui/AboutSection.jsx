@@ -2,10 +2,14 @@ import RoomDecorImage from "/public/3d-room-decor-with-furniture-minimalist-beig
 
 function AboutSection() {
   return (
-    <div className="relative flex flex-row gap-24 mt-48">
-      <img className="w-[551px] h-[803px] z-10" src={RoomDecorImage} alt="" />
-      <div>
-        <h2 className="text-[64px] leading-[71.42px] w-[400px] h-[142px] mt-20">
+    <div className="relative flex flex-row gap-24 mt-48 mx-10">
+      <img
+        className="max-w-[551px] w-full xl:flex hidden h-[803px] z-10"
+        src={RoomDecorImage}
+        alt=""
+      />
+      <div className="text-center">
+        <h2 className="text-[64px] leading-[71.42px] max-w-[400px] w-full h-[142px] mt-20">
           About Chariz Interiors
         </h2>
         <p className="text-[24px] leading-[29.76px] mt-10">
@@ -50,7 +54,7 @@ function AboutSection() {
           <p className="text-black text-[18px] font-normal">Read More</p>
           <img src="public\Group 4 (1).png" alt="" className="cursor-pointer" />
         </div>
-        <h1 className="absolute w-[831px] text-[200px] text-yellow-400 text-opacity-25 top-[-120px] left-[33rem] cursor-default">
+        <h1 className="absolute w-[831px] text-[200px] text-yellow-400 text-opacity-25 top-[-120px] left-[33rem] cursor-default hidden xl:block">
           About Us
         </h1>
       </div>
