@@ -33,7 +33,7 @@ function Login() {
           </div>
           <div className="flex lg:mt-44 lg:gap-32 gap-14">
             <p className="text-[20px] cursor-default">Welcome back</p>
-            <NavLink to="signup">
+            <NavLink to="/signup">
               <p className="text-[20px] text-[#FFC50A] cursor-pointer">
                 Sign up here
               </p>
