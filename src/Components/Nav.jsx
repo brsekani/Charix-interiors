@@ -1,4 +1,4 @@
-import PropTypes from "prop-types"; // Import PropTypes from prop-types package
+import PropTypes from "prop-types";
 import { FaAngleDown } from "react-icons/fa";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { NavLink } from "react-router-dom";
@@ -11,7 +11,7 @@ import { useState } from "react";
 function Nav({ setIsOpen }) {
   const [isOpenMenu, setIsOpenMenu] = useState(false);
 
-  function hanldeToggleMeun() {
+  function handleToggleMenu() {
     setIsOpenMenu((isOpenMenu) => !isOpenMenu);
   }
 
@@ -22,13 +22,16 @@ function Nav({ setIsOpen }) {
   return (
     <nav className="flex items-center justify-between h-[157px] w-full xl:px-20 px-5 xl:fixed top-0 bg-white z-50 relative">
       <img className="cursor-pointer -mt-6 -ml-4" src={logoImg} alt="Logo" />
-      <div className="items-center gap-24 hidden xl:flex  ">
+      <div className="items-center gap-24 hidden xl:flex">
         <ul className="flex items-center gap-16 mb-5">
           <NavLink to="home">
             <li className="hover:text-[#FFC50A] cursor-pointer">Home</li>
           </NavLink>
           <li className="flex items-center justify-center gap-2 hover:text-[#FFC50A] cursor-pointer">
-            Pages <span className="mt-1">{<FaAngleDown size={20} />}</span>{" "}
+            Pages{" "}
+            <span className="mt-1">
+              <FaAngleDown size={20} />
+            </span>
           </li>
           <NavLink to="gallery">
             <li className="hover:text-[#FFC50A] cursor-pointer">Gallery</li>
@@ -44,7 +47,9 @@ function Nav({ setIsOpen }) {
           </NavLink>
         </ul>
         <div className="flex items-center gap-4 mb-5">
-          <img className="cursor-pointer" src={userImg} alt="User" />
+          <NavLink to="account">
+            <img className="cursor-pointer" src={userImg} alt="User" />
+          </NavLink>
           <img src={lineImg} alt="Line" />
           <img
             className="cursor-pointer"
@@ -57,7 +62,7 @@ function Nav({ setIsOpen }) {
       <RxHamburgerMenu
         className="block -mt-12 xl:hidden"
         size={30}
-        onClick={hanldeToggleMeun}
+        onClick={handleToggleMenu}
       />
       {isOpenMenu && (
         <div className="bg-white shadow-lg flex xl:hidden items-start flex-col w-32 h-58 absolute top-24 right-4">
@@ -74,7 +79,10 @@ function Nav({ setIsOpen }) {
               className="flex items-center gap-2 hover:text-[#FFC50A] cursor-pointer"
               onClick={() => setIsOpenMenu(false)}
             >
-              Pages <span className="mt-1">{<FaAngleDown size={20} />}</span>
+              Pages{" "}
+              <span className="mt-1">
+                <FaAngleDown size={20} />
+              </span>
             </li>
             <NavLink to="gallery">
               <li
@@ -110,7 +118,9 @@ function Nav({ setIsOpen }) {
             </NavLink>
 
             <div className="flex items-center gap-4">
-              <img className="cursor-pointer" src={userImg} alt="User" />
+              <NavLink to="account">
+                <img className="cursor-pointer" src={userImg} alt="User" />
+              </NavLink>
               <img src={lineImg} alt="Line" />
               <img
                 className="cursor-pointer"

@@ -6,6 +6,7 @@ import Shop from "./Pages/Shop";
 import Contact from "./Pages/Contact";
 import Login from "./Pages/Login";
 import Signup from "./Pages/Signup";
+import Account from "./Pages/Account";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="gallery" element={<Gallery />} />
           <Route path="shop" element={<Shop />} />
           <Route path="contact" element={<Contact />} />
+          <Route path="account" element={<Account />} />
         </Route>
       </Routes>
     </BrowserRouter>
